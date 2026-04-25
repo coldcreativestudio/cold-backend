@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const Lead = require('../models/Lead');
+const Lead = require('../models/leadModel');
 const { checkSiteIntegrity } = require('./siteChecker');
 
 async function runScrapingPipeline(nicho, cidade) {
