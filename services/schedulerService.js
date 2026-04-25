@@ -1,6 +1,6 @@
 const cron = require('node-cron');
 const { runScrapingPipeline } = require('./mapsScraper');
-const { nichos, cidades } = require('../../scraper/constants');
+const { nichos, cidades } = require('../scraper/constants');
 
 function startCronJobs() {
     // Roda todo dia às 06:00
